@@ -2,7 +2,7 @@ import { Pressable, StyleSheet, Text, View ,ScrollView} from 'react-native'
 import React from 'react'
 
 const mynsar =[
-  '(က) သန့်ရှင်းသော သောက်သုံးရေ သုံးစွဲရေး',
+  '(က) သန့်ရှင်းသော သောက်သုံးရေသုံးစွဲရေး',
   '(ခ) ပတ်ဝန်းကျင်သန့်ရှင်းရေး',
   
   ]
