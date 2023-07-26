@@ -3,7 +3,7 @@ import React from 'react'
 
 const mynsar =[
   '(က) စနစ်တကျ လက်ဆေးခြင်း',
-  '(ခ) ကိုယ်လက်လှုပ်ရှား အားကစား နှင့် ကျန်းမာရေးနှင့် ညီညွတ်သော လူနေမှု ဘဝပုံစံများ',
+  '(ခ) ကိုယ်လက်လှုပ်ရှားအားကစားနှင့်\n ကျန်းမာရေးနှင့် ညီညွတ်သော \nလူနေမှုဘဝပုံစံများ',
   ]
  const go = [
  'Perone','Pertwo'
@@ -88,7 +88,7 @@ export default function Per({navigation}) {
      radio:{
         elevation:7,
         width:'70%',
-        height:69,
+        height:75,
         borderRadius:15,
         justifyContent:'center',
       alignSelf:'center',

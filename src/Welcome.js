@@ -46,7 +46,7 @@ const styles = StyleSheet.create({
         alignSelf:'center',
     },
     Test: {
-        fontSize: 25,
+        fontSize: 23,
         color: '#ffff',
         alignSelf:'center',
         
@@ -57,7 +57,7 @@ const styles = StyleSheet.create({
         marginRight:'6%',
         alignSelf: 'flex-end',
         width:200,
-        height:50,
+        height:60,
         justifyContent:'center',
         alignItems:'center',
         borderRadius:15

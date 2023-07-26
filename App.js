@@ -78,6 +78,15 @@ import mene from './mental/mene'
 import Ref from './Reference/Ref'
 import noon from './NonComm/noon'
 import man from './mental/man'
+import Qu from './Quiz/Qu'
+import Qa from './Quiz/Qa'
+import Qb from './Quiz/Qb'
+import Qc from './Quiz/Qc'
+import Qd from './Quiz/Qd'
+import Qe from './Quiz/Qe'
+import Qf from './Quiz/Qf'
+import Qg from './Quiz/Qg'
+import Results from './Quiz/ResultsScreen'
 const Stack = createStackNavigator();
 
 
@@ -241,6 +250,25 @@ function App() {
 
         <Stack.Screen name='Ref'
           component={Ref} />
+
+<Stack.Screen name='Qu'
+          component={Qu} />
+          <Stack.Screen name='Qa'
+          component={Qa} />
+          <Stack.Screen name='Qb'
+          component={Qb} />
+          <Stack.Screen name='Qc'
+          component={Qc} />
+          <Stack.Screen name='Qd'
+          component={Qd} />
+          <Stack.Screen name='Qe'
+          component={Qe} />
+          <Stack.Screen name='Qf'
+          component={Qf} />
+          <Stack.Screen name='Qg'
+          component={Qg} />
+          <Stack.Screen name='Results'
+          component={Results}/>
 
 
       </Stack.Navigator>

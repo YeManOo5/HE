@@ -16,9 +16,6 @@ export default function Ref({navigation}) {
          References
          </Text>
          <Text style={styles.p}>
-         <Text style={styles.subp} 
-         onPress={() => Linking.openURL('https://blackwaterlaw.co.uk/burma-conflict-study-highlights-significance-of-ptsd')}>
-        (2020, August 20). Retrieved from Black Water Law:</Text>
         {"\n"}<Text style={styles.subp} 
          onPress={() => Linking.openURL('https://www.mayoclinic.org/diseases-conditions/post-traumatic-stress-disorder/symptoms-causes/syc-20355967')}>
        Mayo Clinic. (n.d.). Retrieved from Mayo Clinic:</Text>

@@ -2,7 +2,7 @@ import { Pressable, StyleSheet, Text, View,ScrollView } from 'react-native'
 import React from 'react'
 
 const mynsar =[
-  '၈။ မကူးစက်နိုင်သော ရောဂါများအကြောင်း',
+  '၈။ မကူးစက်နိုင်သောရောဂါများအကြောင်း',
   '၈.၁	သွေးတိုးရောဂါ',
   '၈.၂	ဆီးချို၊ သွေးချိုရောဂါ',
   '၈.၃	နှလုံးသွေးကြောကျဉ်းရောဂါ',

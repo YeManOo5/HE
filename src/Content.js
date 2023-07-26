@@ -4,33 +4,34 @@ import { TouchableOpacity } from 'react-native-gesture-handler'
 
 
 const mynsar =[
-'၁။ ဆယ်ကျော်သက် လူငယ် \n ကျန်းမာဖွံ့ဖြိုးရေး  မျိုးဆက်ပွား ကျန်းမာရေး',
-'၂။ မိခင် ကိုယ်ဝန်စောင့်ရှောက်ခြင်း',
+'၁။ ဆယ်ကျော်သက်လူငယ် \n ကျန်းမာဖွံ့ဖြိုးရေးနှင့် မျိုးဆက်ပွားကျန်းမာရေး',
+'၂။ မိခင်ကိုယ်ဝန်စောင့်ရှောက်ခြင်း',
 '၃။ မွေးဖွားစဥ် သိရှိရမည့်အချက်များ',
-'၄။ မွေးဖွားပြီးချိန်တွင်  မိခင်အား \n စောင့်ရှောက်မှု',
-'၅။ မွေးကင်းစကလေး ကျန်းမာ ဖွံ့ဖြိုးရေး',
-'၆။ တစ်ကိုယ်ရည်သန့်ရှင်းရေး',
-'၇။ ကူးစက်နိုင်သော ရောဂါများ အကြောင်း',
-'၈။ မကူးစက်နိုင်သော ရောဂါများအကြောင်း',
-'၉။ ပတ်ဝန်းကျင်ဆိုင်ရာ ကျန်းမာရေး / \n ပတ်ဝန်းကျင် သန့်ရှင်းရေး',
+'၄။ မွေးဖွားပြီးချိန်တွင် \n  မိခင်အားစောင့်ရှောက်မှု',
+'၅။ မွေးကင်းစကလေး ကျန်းမာဖွံ့ဖြိုးရေး',
+'၆။ တစ်ကိုယ်ရေသန့်ရှင်းရေး',
+'၇။ ကူးစက်နိုင်သောရောဂါများအကြောင်း',
+'၈။ မကူးစက်နိုင်သောရောဂါများအကြောင်း',
+'၉။ ပတ်ဝန်းကျင်ဆိုင်ရာကျန်းမာရေး/ \n ပတ်ဝန်းကျင်သန့်ရှင်းရေး',
 '၁၀။ စိတ်ကျန်းမာရေး',
-'References'
+'References',
+'Quizzes'
 ]
 const get =[
- 'Youth','Anc','Deli','Pnc','Neo','Per','Inf','Non','Env','men','Ref' 
+ 'Youth','Anc','Deli','Pnc','Neo','Per','Inf','Non','Env','men','Ref', 'Qu'
 ]
 
 const bgclr = [
     '#FFCCCB','#FFC1E3','#FFC4FF','#E6CEFF',
     '#D1D9FF','#B2FEF7',
     '#D7FFD9','#F8FFD7','#FFFFB0',
-    '#FFDDC1','#EFDCD5'
+    '#FFDDC1','#EFDCD5','#BDCDD6'
   ]
 
   const Ic = [
    require('../assets/one.png') , require('../assets/two.png'),require('../assets/three.png'),require('../assets/four.png'),
    require('../assets/five.png'),require('../assets/six.png'),require('../assets/seven.png'),require('../assets/eight.png'),
-   require('../assets/nine.png'),require('../assets/teen.png'),require('../assets/eleven.png')
+   require('../assets/nine.png'),require('../assets/teen.png'),require('../assets/eleven.png'),require('../assets/Quiz.png')
   ]
 
 export default function ScreenA({navigation}) {
@@ -41,7 +42,7 @@ export default function ScreenA({navigation}) {
 
 
     return(
-        <ScrollView style={{backgroundColor:'#fff'}}>
+        <ScrollView style={{backgroundColor:'#fff',}}>
       <View style={styles.body}>
         <Text style={styles.headtitle}>ကျန်းမာရေးအသိပညာပေးခြင်း</Text>
         {/* <Text style={styles.Text}>
